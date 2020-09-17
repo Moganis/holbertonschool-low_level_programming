@@ -21,4 +21,4 @@ int main(void)
 	printf("%d is netgative\n", n);
 	
 	return (0);
-}
+} 
