@@ -1,0 +1,1 @@
+This exercise is to learning About while, do while, if .. else and for
