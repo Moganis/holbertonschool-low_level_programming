@@ -3,17 +3,17 @@
 /**
  * print_last_digit - ultimo digito de un numero
  *
- * @a: entry point
+ * @n: entry point
  *
  * Return: return las digit
  **/
 
 int print_last_digit(int n)
-{n = n % 10;
+{
+	n = n % 10;
 
 	if (n < 0)
 		n = -n;
 	_putchar(n + '0');
 	return (n);
-        
 }
