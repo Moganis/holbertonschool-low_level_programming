@@ -3,9 +3,9 @@
 /**
  * print_last_digit - ultimo digito de un numero
  *
- * @a: This is the entry
- * Return: Always a
- */
+ * @a: entry point
+ * Return: return las digit 
+ **/
 
 int print_last_digit(int a)
 {
