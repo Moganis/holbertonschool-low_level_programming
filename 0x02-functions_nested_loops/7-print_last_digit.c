@@ -8,26 +8,26 @@
  * Return: return las digit
  **/
 
-int print_last_digit(int a)
+int print_last_digit(int n)
 {
 
-	 if (a > 0)
+	if (n > 0)
         {
-                a = a % 10;
-                _putchar('0' + a);
-		return (a);
+                n = n % 10;
+                _putchar('0' + n);
+		return (n);
         }
-        else if (a < 0)
+        else if (n < 0)
         {
-                a =  -a;
-                a = a % 10;
-                _putchar('0' + a);
-		return(a);
+                n =  -n;
+                n = n % 10;
+                _putchar('0' + n);
+		return(n);
         }
         else
         {
-                _putchar('0' + a);
-		return (a);
+                _putchar('0' + n);
+		return (n);
         }
         
 }
