@@ -1,15 +1,18 @@
 #include "holberton.h"
 
 /**
- * _isalpha - check the the entry to deteminate if is lower or upper
+ * add - Sum between two numbers
  *
- * @c: This is the entry
- * Return: Always 0.
+ * @a : number one
+ *
+ * @b : number two
+ * Return: The result
  */
 
 int add(int a, int b)
 {
-     int c;
-    c = a + b;
-    return (c);
+	int c;
+
+	c = a + b;
+	return (c);
 }
