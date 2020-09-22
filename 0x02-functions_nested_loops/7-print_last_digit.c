@@ -4,7 +4,7 @@
  * print_last_digit - ultimo digito de un numero
  *
  * @a: This is the entry
- * Return: Always 0.
+ * Return: Always a
  */
 
 int print_last_digit(int a)
