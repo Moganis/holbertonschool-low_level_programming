@@ -5,20 +5,8 @@
  *
  * Return: Always 0.
  */
-
-void print_alphabet(void)
+int main(void)
 {
-	int a;
-	for (a = 97; a <= 122; a++)
-	{
-		_putchar(a);
-	}
-	_putchar('\n');
-
-	
+    print_alphabet();
+    return (0);
 }
-		
-
-
-
-
