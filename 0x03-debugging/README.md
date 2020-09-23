@@ -1,1 +1,1 @@
-This directory is about debuggin in c
+This file is about Debugging in C
