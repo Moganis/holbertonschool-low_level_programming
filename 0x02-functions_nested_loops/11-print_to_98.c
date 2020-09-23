@@ -1,4 +1,5 @@
 #include "holberton.h"
+#include <stdio.h>
 
 /**
  * print_to_98 - check the the entry to deteminate if is lower or upper
