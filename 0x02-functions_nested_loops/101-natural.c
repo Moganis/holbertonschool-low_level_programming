@@ -8,7 +8,7 @@
  */
 
 
-int numbers(void)
+int main(void)
 {
  int b;
     for(int a = 1; a < 1024; a++)
@@ -26,7 +26,7 @@ int numbers(void)
         {
             b = a + b;
             printf("%d", a);
-            if (a != 1023)
+            if (a |= 1023)
         {
             printf(", ");
         }
