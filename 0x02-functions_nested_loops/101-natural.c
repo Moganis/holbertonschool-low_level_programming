@@ -29,3 +29,4 @@ void numbers(void)
      printf("\n");
     printf("the result is %d", b);
 }
+
