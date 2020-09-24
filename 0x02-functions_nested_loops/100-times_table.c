@@ -30,7 +30,7 @@ if (n > 0 && n < 15 )
 			}
 			else if (d >= 10 && d <= 99)
 			{
-              <F5>printf(" %d", d);
+              printf(" %d", d);
 			}
 			else
 			{
