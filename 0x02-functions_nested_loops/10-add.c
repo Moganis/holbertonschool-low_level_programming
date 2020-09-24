@@ -1,18 +1,18 @@
 #include "holberton.h"
 
 /**
- * add - Sum between two numbers
+ * add -  sum between two numbers
  *
  * @a : number one
  *
  * @b : number two
- * Return: The result
- */
+ * Return : sum
+ **/
 
 int add(int a, int b)
 {
-	int c;
+	int sum = 0;
 
-	c = a + b;
-	return (c);
+	sum = a + b;
+	return (sum);
 }
