@@ -3,7 +3,7 @@
 /**
  * print_line -  print lines with your numbers
  *
- *
+ * @n: this is the entry
  *
  *
  */
@@ -18,7 +18,6 @@ void print_line(int n)
 		{
 			_putchar(95);
 		}
-	
 	}
 	_putchar('\n');
 }
