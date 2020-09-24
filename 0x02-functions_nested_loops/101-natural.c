@@ -8,7 +8,7 @@
  * 
  *
  */
-void numbers(void)
+int numbers(void)
 {
  int b;
     for(int a = 1; a < 1024; a++)
@@ -26,6 +26,6 @@ void numbers(void)
 
     }
      printf("\n");
-    printf("the result is %d", b);
+     printf("%d", b);
+     return b;
 }
-
