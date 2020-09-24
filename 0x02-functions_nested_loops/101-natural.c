@@ -8,7 +8,6 @@
  * 
  *
  */
-
 void numbers(void)
 {
  int b;
