@@ -11,9 +11,9 @@
 void print_times_table(int n)
 {
 	int b, c, d;
-if (n >= 0 && n <= 15 )
+if (n > 0 && n < 15 )
 {
-	for (c = 0; c <= n; c++)
+    for (c = 0; c <= n; c++)
 	{
 		for (b = 0; b <= n; b++)
 		{
@@ -21,29 +21,36 @@ if (n >= 0 && n <= 15 )
 
 			if (b == 0)
 			{
-				printf("%d",d);
+				_putchar(d + '0');
 			}
 
 			else if (d <= 9)
 			{
-				printf("  %d", d);
+				_putchar(32);
+				_putchar(32);
+				_putchar(d + '0');
 			}
 			else if (d >= 10 && d <= 99)
 			{
-              printf(" %d", d);
+                _putchar(32);
+                _putchar(((d/10)%10)+'0');
+                _putchar((d%10)+'0');
 			}
 			else
+            {
+                _putchar((d/100)+'0');
+                _putchar(((d/10)%10)+'0');
+                _putchar((d%10)+'0');
+            }
+            if (b != n)
 			{
-			printf("%d", d);
-			}
-			if (b != n)
-			{
-				printf(", ");
+            _putchar(',');
+            _putchar(32);
 			}
 		}
-			putchar('\n');
-		}
-
+		_putchar('\n');
 	}
+
+    }
 	return 0;
 }
