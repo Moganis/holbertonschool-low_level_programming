@@ -10,8 +10,8 @@
 
 int main(void)
 {
- int b;
-    for(int a = 1; a < 1024; a++)
+ int b , a;
+    for( a = 1; a < 1024; a++)
     {
         if( a % 3 == 0 )
         {
@@ -19,9 +19,9 @@ int main(void)
         }
         else if (a % 5 == 0)
         {
-            printf("%d", a);
+            b = a + b;
         }
     }
      printf("%d\n", b);
-     return b;
+     return (0);
 }
