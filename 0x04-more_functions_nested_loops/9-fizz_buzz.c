@@ -6,11 +6,11 @@
  * Return: retur 0
  */
 
-int main ()
+int main (void)
 {
 	int a;
 	
-	for (a = 1; a <= 100; a++)
+	for (a = 1; a < 100; a++)
 	{
 		if ((a % 5 == 0) && (a % 3 == 0))
 		{
