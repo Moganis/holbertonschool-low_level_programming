@@ -6,8 +6,8 @@
 
 int main(void){
 
-	int newValue;
-        long long number = 612852475143;
+	long newValue;
+        long number = 612852475143;
         long i;
 
         for (i = 2; i <
@@ -16,9 +16,10 @@ int main(void){
             if(number % i == 0 )
             {
                 number  = number / i;
+		newValue = i;
             }
         }
-        printf("%ld\n", i);
+        printf("%ld\n", newValue);
 
         return 0;
 
