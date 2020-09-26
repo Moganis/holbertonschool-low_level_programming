@@ -1,2 +1,2 @@
-This is about more funcitions \n
+This is about more funcitions
 Que estas haciendo. 
