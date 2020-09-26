@@ -6,9 +6,9 @@
 
 int main(void){
 
-	long newValue;
-        long number = 612852475143;
-        long i;
+	int newValue;
+        long long number = 612852475143;
+        int i;
 
         for (i = 2; i <
          number ; i++)
@@ -19,7 +19,7 @@ int main(void){
 		newValue = i;
             }
         }
-        printf("%ld\n", newValue);
+        printf("%d\n", newValue);
 
         return 0;
 
