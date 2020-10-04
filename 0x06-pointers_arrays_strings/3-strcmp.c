@@ -1,23 +1,8 @@
 #include "holberton.h"
-/**
- *
- *
- *
- *
- *
- */
 
-char *_strncpy(char *dest, char *src, int n)
+int _strcmp(char *s1, char *s2)
 {
-	int a, b, c;
-    
-    for(a = 0; a < n && src[a] != '\0'; a++)
-    {
-        dest[a] = src[a];
-    }
-    if (a < n)
-    {
-        dest[a] = '\0';
-    }
-    return dest;
+    int a;
+    a = *s1 - *s2;
+    return a;
 }
