@@ -2,7 +2,12 @@
 
 int _strcmp(char *s1, char *s2)
 {
-    int a;
-    a = *s1 - *s2;
-    return a;
+    if( s1 == s2)
+	{
+		return 0;
+	}
+	else
+	{
+     	return *s1 - *s2;
+	}
 }
