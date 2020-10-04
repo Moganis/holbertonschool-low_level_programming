@@ -1,13 +1,19 @@
 #include "holberton.h"
 
-int _strcmp(char *s1, char *s2)
+int _strcmp(char *strg1, char *strg2)
 {
-    if( s1 == s2)
-	{
-		return 0;
-	}
-	else
-	{
-     	return *s1 - *s2;
-	}
+    for(; (*strg1 != '\0' && *strg2 != '\0') && *strg1 == *strg2; strg1++, strg2++)
+    {
+    }
+    
+        if(*strg1 == *strg2)
+    {
+        return 0;
+	}	
+
+    else
+    {
+        return *strg1 - *strg2;
+    }
+    
 }
