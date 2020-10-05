@@ -1,4 +1,6 @@
 #include "holberton.h"
+#include <stddef.h>
+
 /**
  * _strpbrk - This is my function
  * @s: This is my entry
@@ -15,7 +17,7 @@ char *_strpbrk(char *s, char *accept)
 		{
 			if (accept[b] == s[a])
 			{
-				return (&s[i]);
+				return (&s[a]);
 			}
 		}
 	}
