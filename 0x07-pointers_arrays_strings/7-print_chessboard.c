@@ -1,5 +1,12 @@
 #include "holberton.h"
 #include <stdio.h>
+/**
+ * print_chessboard - This is my funcion
+ * @a: This is my variable
+ *
+ * Return: This is my return
+ *
+ */
 
 void print_chessboard(char (*a)[8])
 {
