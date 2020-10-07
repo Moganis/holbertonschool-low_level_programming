@@ -1,20 +1,25 @@
 #include "holberton.h"
-char *leet(char *hi)
+ char *cap_string(char *entry)
 {
-    char minus[] = {'a','e','o','t','l','\0'};
-    char mayus[] = {'A','E','O','T','L', '\0'};
-    char numbers[] = {'4','3','0','7','1','\0'};
-    
-    int i, a;    
-	for (i=0;hi[i]!='\0';++i)
-	{
-	    for(a=0; a < 5; a++)
-	    {
-		    if(hi[i] == minus[a] || hi[i] == mayus[a])
-		    {
-			    hi[i]= numbers[a];
-		    }
-	    }
-	}
-	return hi;
+    int conversion, a, b;
+    char chars[] = {' ', ',', ';' , '.', '!', '?', '"', '(', ')', '{', '}','\t', '\n', '\0'};
+    conversion = 32;
+    for(a = 0; entry[a] != '\0'; a++)
+    {
+        if(entry[a] >= 'a' && entry[a] <= 'z')
+        {
+            entry[a] =  entry[a] - conversion;
+        }
+        conversion = 0;
+        for(b = 0; chars[b] != '\0'; b++)
+        {
+            if(chars[b] == entry[a])
+            {
+                conversion = 32;
+                break;
+            }
+        }
+  
+    }
+      return entry;
 }
